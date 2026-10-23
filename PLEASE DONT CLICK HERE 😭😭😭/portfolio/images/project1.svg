@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p1Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1020" />
+      <stop offset="100%" stop-color="#141e36" />
+    </linearGradient>
+    <linearGradient id="cyanLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00d2c4" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#p1Grad)" />
+  
+  <!-- Window UI Frame -->
+  <rect x="50" y="40" width="700" height="370" rx="12" fill="#0f172a" stroke="#1e293b" stroke-width="2" />
+  
+  <!-- Header Bar -->
+  <rect x="50" y="40" width="700" height="45" rx="12" fill="#151e34" />
+  <circle cx="80" cy="62" r="6" fill="#ef4444" />
+  <circle cx="102" cy="62" r="6" fill="#f59e0b" />
+  <circle cx="124" cy="62" r="6" fill="#10b981" />
+  <text x="400" y="67" font-family="'JetBrains Mono', monospace" font-size="14" fill="#94a3b8" text-anchor="middle">society-membership-portal.local</text>
+  
+  <!-- Left Sidebar -->
+  <rect x="65" y="105" width="180" height="285" rx="8" fill="#151e34" stroke="#1e293b" />
+  <rect x="85" y="125" width="140" height="20" rx="4" fill="#00d2c4" opacity="0.3" />
+  <text x="95" y="140" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#00d2c4">👥 Members (248)</text>
+  <rect x="85" y="160" width="140" height="18" rx="4" fill="#1e293b" />
+  <rect x="85" y="190" width="140" height="18" rx="4" fill="#1e293b" />
+  <rect x="85" y="220" width="140" height="18" rx="4" fill="#1e293b" />
+  <rect x="85" y="250" width="140" height="18" rx="4" fill="#1e293b" />
+
+  <!-- Main Content Area -->
+  <!-- Stats row -->
+  <g transform="translate(265, 105)">
+    <rect width="145" height="75" rx="8" fill="#151e34" stroke="#1e293b" />
+    <text x="15" y="30" font-family="'Inter', sans-serif" font-size="12" fill="#94a3b8">Active Tiers</text>
+    <text x="15" y="60" font-family="'JetBrains Mono', monospace" font-size="24" font-weight="700" fill="#00d2c4">4 Levels</text>
+
+    <rect x="160" y="0" width="145" height="75" rx="8" fill="#151e34" stroke="#1e293b" />
+    <text x="175" y="30" font-family="'Inter', sans-serif" font-size="12" fill="#94a3b8">Events Booked</text>
+    <text x="175" y="60" font-family="'JetBrains Mono', monospace" font-size="24" font-weight="700" fill="#38bdf8">18 Total</text>
+
+    <rect x="320" y="0" width="145" height="75" rx="8" fill="#151e34" stroke="#1e293b" />
+    <text x="335" y="30" font-family="'Inter', sans-serif" font-size="12" fill="#94a3b8">Merch Stock</text>
+    <text x="335" y="60" font-family="'JetBrains Mono', monospace" font-size="24" font-weight="700" fill="#10b981">92 Items</text>
+  </g>
+
+  <!-- Table representation -->
+  <rect x="265" y="200" width="465" height="190" rx="8" fill="#151e34" stroke="#1e293b" />
+  <!-- Table Header -->
+  <rect x="265" y="200" width="465" height="35" rx="8" fill="#1e293b" />
+  <text x="285" y="222" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#f8fafc">ID</text>
+  <text x="330" y="222" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#f8fafc">Member Name</text>
+  <text x="490" y="222" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#f8fafc">Membership</text>
+  <text x="630" y="222" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#f8fafc">Status</text>
+
+  <!-- Table Rows -->
+  <g font-family="'JetBrains Mono', monospace" font-size="12" fill="#94a3b8">
+    <text x="285" y="260">#104</text>
+    <text x="330" y="260" fill="#f8fafc">Kabelo Molefe</text>
+    <text x="490" y="260">Executive</text>
+    <text x="630" y="260" fill="#10b981">● Active</text>
+
+    <text x="285" y="300">#105</text>
+    <text x="330" y="300" fill="#f8fafc">Thandi Khumalo</text>
+    <text x="490" y="300">Standard</text>
+    <text x="630" y="300" fill="#10b981">● Active</text>
+
+    <text x="285" y="340">#106</text>
+    <text x="330" y="340" fill="#f8fafc">Sipho Dlamini</text>
+    <text x="490" y="340">Premium</text>
+    <text x="630" y="340" fill="#00d2c4">● Verified</text>
+  </g>
+</svg>

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Tshepiso Letelo | ICT Student & Aspiring Software Developer</title>
+  <meta name="description" content="Learn about Tshepiso Letelo, a second-year ICT/DICT student with experience in C++, Java, PHP, MySQL, web development, and a goal to solve real-world problems." />
+  <meta property="og:title" content="About Tshepiso Letelo | ICT Student & Aspiring Software Developer" />
+  <meta property="og:description" content="Background, academic training, technical focus, and aspirations of Tshepiso Letelo." />
+  <meta property="og:type" content="website" />
+
+  <!-- Google Fonts: Inter and JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Main JavaScript -->
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+
+  <!-- ======================================================================
+       HEADER & NAVIGATION
+       ====================================================================== -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="nav-brand" aria-label="Tshepiso Letelo - Home">
+        <span class="brand-bracket">&lt;</span>Tshepiso Letelo<span class="brand-bracket"> /&gt;</span>
+      </a>
+
+      <!-- Mobile Hamburger Button -->
+      <button 
+        type="button" 
+        class="nav-toggle" 
+        id="navToggle" 
+        aria-label="Toggle navigation menu" 
+        aria-expanded="false" 
+        aria-controls="navMenu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <!-- Navigation Links -->
+      <nav class="nav-menu" id="navMenu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link active">About</a>
+        <a href="skills.html" class="nav-link">Skills</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ======================================================================
+       MAIN CONTENT
+       ====================================================================== -->
+  <main id="mainContent">
+
+    <!-- PAGE HERO -->
+    <section class="section" aria-labelledby="aboutHeading">
+      <div class="container">
+        
+        <div class="section-header reveal">
+          <span class="section-kicker">Get To Know Me</span>
+          <h1 id="aboutHeading" class="section-title">About Me</h1>
+          <p class="section-description">
+            Second-year ICT/DICT student driven by curiosity, code craftsmanship, and building dependable technological solutions.
+          </p>
+        </div>
+
+        <!-- BIO & PHOTO/PROFILE CARD -->
+        <div class="about-hero">
+          
+          <div class="about-bio reveal">
+            <h2 style="font-size: 1.6rem; color: var(--accent);">
+              Hello! I'm Tshepiso Letelo.
+            </h2>
+            
+            <p>
+              I am a second-year ICT/DICT (Information and Communication Technology) student with a deep passion for technology and software development. My academic journey has given me solid practical knowledge and hands-on experience in <strong>C++</strong>, <strong>Java</strong>, <strong>PHP</strong>, <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, and <strong>MySQL</strong>.
+            </p>
+
+            <p>
+              Technology excites me because of its unique capacity to streamline human effort and bridge communication barriers. Through continuous coursework, lab assignments, and independent programming, I am continuously improving my programming, problem-solving, database, networking and software development skills.
+            </p>
+
+            <p>
+              I take pride in writing structured, readable code and understanding the system design principles that keep applications performant and dependable.
+            </p>
+
+            <!-- Career Goal Callout Box -->
+            <div class="career-goal-box">
+              <span class="career-goal-title">🎯 Primary Career Goal</span>
+              <p class="career-goal-quote">
+                "My goal is to become a skilled software developer and build practical technology solutions that solve real-world problems."
+              </p>
+            </div>
+
+            <div class="btn-group" style="margin-top: 1rem;">
+              <a href="skills.html" class="btn btn-primary">Check Out My Skills →</a>
+              <a href="contact.html" class="btn btn-outline">Let's Connect</a>
+            </div>
+          </div>
+
+          <!-- Profile Card -->
+          <div class="reveal" style="display: flex; justify-content: center;">
+            <div class="avatar-wrapper" style="width: 350px;">
+              <div class="avatar-inner">
+                <img 
+                  src="images/profile.jpg" 
+                  alt="Tshepiso Letelo photo" 
+                  class="avatar-img"
+                  onerror="this.onerror=null; this.src='images/profile.svg';"
+                />
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- HIGHLIGHT CARDS (5 Core Areas) -->
+        <div class="section" style="padding-top: var(--space-xl);" aria-labelledby="coreAreasHeading">
+          <div class="section-header reveal">
+            <span class="section-kicker">Core Pillars</span>
+            <h2 id="coreAreasHeading" class="section-title">Key Areas of Focus</h2>
+            <p class="section-description">
+              The foundational disciplines and technical domains that define my education and practical development.
+            </p>
+          </div>
+
+          <div class="highlights-grid">
+            
+            <!-- Card 1: Education -->
+            <article class="highlight-card reveal">
+              <div class="highlight-icon">🎓</div>
+              <h3 class="highlight-title">Education</h3>
+              <p class="highlight-text">
+                Currently enrolled in the second year of a Diploma in Information and Communication Technology (ICT/DICT). Coursework covers object-oriented programming, data algorithms, relational database administration, software lifecycle management, and systems analysis.
+              </p>
+            </article>
+
+            <!-- Card 2: Programming -->
+            <article class="highlight-card reveal">
+              <div class="highlight-icon highlight-computer-icon" style="height: auto; margin-bottom: 0.25rem;">
+                <svg class="computer-graphic" viewBox="0 0 240 145" width="100%" height="92" style="max-width: 175px; display: block;" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Computer workstation illustration">
+                  <defs>
+                    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#0a0f1d" />
+                      <stop offset="100%" stop-color="#030712" />
+                    </linearGradient>
+                    <linearGradient id="metalBezel" x1="0%" y1="0%" x2="0%" y2="100%">
+                      <stop offset="0%" stop-color="#334155" />
+                      <stop offset="100%" stop-color="#1e293b" />
+                    </linearGradient>
+                    <linearGradient id="baseMetal" x1="0%" y1="0%" x2="0%" y2="100%">
+                      <stop offset="0%" stop-color="#475569" />
+                      <stop offset="60%" stop-color="#334155" />
+                      <stop offset="100%" stop-color="#1e293b" />
+                    </linearGradient>
+                    <filter id="pcGlow" x="-20%" y="-20%" width="140%" height="140%">
+                      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#00d2c4" flood-opacity="0.3" />
+                    </filter>
+                  </defs>
+
+                  <!-- Laptop Screen Lid -->
+                  <g filter="url(#pcGlow)">
+                    <rect x="25" y="6" width="190" height="114" rx="8" fill="url(#metalBezel)" stroke="#64748b" stroke-width="1.2" />
+                    <circle cx="120" cy="11" r="1.5" fill="#0f172a" />
+                    <circle cx="120" cy="11" r="0.75" fill="#38bdf8" opacity="0.8" />
+
+                    <!-- Display Screen -->
+                    <rect x="31" y="16" width="178" height="98" rx="4" fill="url(#screenGrad)" stroke="#0ea5e9" stroke-width="0.8" stroke-opacity="0.4" />
+
+                    <!-- Terminal Window Top Bar -->
+                    <rect x="31" y="16" width="178" height="14" rx="4" fill="#0f172a" />
+                    <circle cx="39" cy="23" r="2" fill="#ef4444" />
+                    <circle cx="46" cy="23" r="2" fill="#f59e0b" />
+                    <circle cx="53" cy="23" r="2" fill="#10b981" />
+                    <text x="120" y="26" font-family="'JetBrains Mono', monospace" font-size="6.5" fill="#94a3b8" text-anchor="middle">terminal — code editor</text>
+
+                    <!-- Code Syntax on Screen -->
+                    <g font-family="'JetBrains Mono', monospace" font-size="7">
+                      <text x="38" y="42" fill="#00d2c4">class</text>
+                      <text x="64" y="42" fill="#f8fafc">Developer</text>
+                      <text x="110" y="42" fill="#94a3b8">{</text>
+
+                      <text x="44" y="54" fill="#38bdf8">string</text>
+                      <text x="73" y="54" fill="#f8fafc">name</text>
+                      <text x="96" y="54" fill="#00d2c4">=</text>
+                      <text x="105" y="54" fill="#34d399">"Tshepiso"</text>
+                      <text x="151" y="54" fill="#94a3b8">;</text>
+
+                      <text x="44" y="66" fill="#a855f7">void</text>
+                      <text x="66" y="66" fill="#facc15">buildApp</text>
+                      <text x="105" y="66" fill="#f8fafc">()</text>
+                      <text x="115" y="66" fill="#94a3b8">{</text>
+
+                      <text x="50" y="78" fill="#ec4899">return</text>
+                      <text x="80" y="78" fill="#38bdf8">SUCCESS</text>
+                      <text x="116" y="78" fill="#94a3b8">;</text>
+
+                      <text x="44" y="90" fill="#94a3b8">}</text>
+                      <text x="38" y="102" fill="#94a3b8">};</text>
+
+                      <!-- Cursor -->
+                      <rect x="52" y="96" width="4" height="7" fill="#00d2c4" opacity="0.9" />
+                    </g>
+                  </g>
+
+                  <!-- Laptop Keyboard Deck -->
+                  <g>
+                    <path d="M 5 120 L 25 119 L 215 119 L 235 120 L 222 133 L 18 133 Z" fill="url(#baseMetal)" stroke="#64748b" stroke-width="0.8" />
+                    <path d="M 104 120 L 136 120 L 133 123 L 107 123 Z" fill="#1e293b" />
+                    <path d="M 32 121 L 208 121 L 201 127 L 39 127 Z" fill="#0f172a" opacity="0.8" />
+                    <rect x="105" y="128" width="30" height="4" rx="1" fill="#475569" opacity="0.6" />
+                    <rect x="18" y="133" width="204" height="4" rx="2" fill="#0f172a" />
+                    <ellipse cx="120" cy="141" rx="90" ry="3.5" fill="#000000" opacity="0.4" />
+                  </g>
+                </svg>
+              </div>
+              <h3 class="highlight-title">Programming</h3>
+              <p class="highlight-text">
+                Practical competency in Object-Oriented Programming (OOP) concepts including encapsulation, inheritance, polymorphism, and abstraction. Active coding experience building modular applications using C++, Java, PHP, and JavaScript.
+              </p>
+            </article>
+
+            <!-- Card 3: Web Development -->
+            <article class="highlight-card reveal">
+              <div class="highlight-icon">🌐</div>
+              <h3 class="highlight-title">Web Development</h3>
+              <p class="highlight-text">
+                Designing responsive, user-friendly, and accessible front-end interfaces with semantic HTML5, modern CSS3 layout methods (Flexbox &amp; Grid), and vanilla JavaScript, combined with server-side scripting in PHP for dynamic data processing.
+              </p>
+            </article>
+
+            <!-- Card 4: Databases -->
+            <article class="highlight-card reveal">
+              <div class="highlight-icon">🗄️</div>
+              <h3 class="highlight-title">Databases</h3>
+              <p class="highlight-text">
+                Skilled in relational schema design, Entity-Relationship (ER) modeling, table normalization (1NF through 3NF), and crafting SQL queries for CRUD operations, inner/outer joins, and relational data constraints using MySQL.
+              </p>
+            </article>
+
+            <!-- Card 5: Technology & IT -->
+            <article class="highlight-card reveal">
+              <div class="highlight-icon">🔐</div>
+              <h3 class="highlight-title">Technology &amp; IT</h3>
+              <p class="highlight-text">
+                Comprehensive foundation in computer networking protocols (TCP/IP, DNS, HTTP), operating systems, software testing, debugging methodology, and version control workflows with Git and GitHub to maintain clean code repositories.
+              </p>
+            </article>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ======================================================================
+       FOOTER
+       ====================================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-brand">Tshepiso Letelo</div>
+      <div class="footer-subtitle">Second-Year ICT Student • Aspiring Software Developer</div>
+      
+      <div class="footer-socials" aria-label="Social media and contact links">
+        <a href="#" class="social-link" title="GitHub Profile (Replace with your GitHub link)" aria-label="GitHub">
+          <span>🐙</span>
+        </a>
+        <a href="#" class="social-link" title="LinkedIn Profile (Replace with your LinkedIn link)" aria-label="LinkedIn">
+          <span>💼</span>
+        </a>
+        <a href="mailto:tshepisoletelo2@gmail.com" class="social-link" title="Send Email" aria-label="Email">
+          <span>✉️</span>
+        </a>
+      </div>
+
+      <p class="footer-copyright">
+        © <span id="currentYear">2026</span> Tshepiso Letelo. All Rights Reserved.
+      </p>
+    </div>
+  </footer>
+
+  <!-- BACK TO TOP BUTTON -->
+  <button type="button" id="backToTop" class="back-to-top" aria-label="Scroll back to top of page">
+    ↑
+  </button>
+
+</body>
+</html>

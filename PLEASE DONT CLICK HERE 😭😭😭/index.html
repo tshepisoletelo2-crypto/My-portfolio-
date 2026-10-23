@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tshepiso Letelo | ICT Student & Aspiring Software Developer</title>
+  <meta name="description" content="Portfolio of Tshepiso Letelo, a second-year ICT student passionate about software development, web technologies, databases, and practical problem-solving." />
+  <meta property="og:title" content="Tshepiso Letelo | ICT Student & Aspiring Software Developer" />
+  <meta property="og:description" content="Portfolio of Tshepiso Letelo, a second-year ICT student passionate about software development, C++, Java, PHP, MySQL, and practical problem-solving." />
+  <meta property="og:type" content="website" />
+
+  <!-- Google Fonts: Inter and JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Main JavaScript (Deferred execution) -->
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+
+  <!-- ======================================================================
+       HEADER & NAVIGATION
+       ====================================================================== -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="nav-brand" aria-label="Tshepiso Letelo - Home">
+        <span class="brand-bracket">&lt;</span>Tshepiso Letelo<span class="brand-bracket"> /&gt;</span>
+      </a>
+
+      <!-- Mobile Hamburger Button -->
+      <button 
+        type="button" 
+        class="nav-toggle" 
+        id="navToggle" 
+        aria-label="Toggle navigation menu" 
+        aria-expanded="false" 
+        aria-controls="navMenu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <!-- Navigation Links -->
+      <nav class="nav-menu" id="navMenu">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="skills.html" class="nav-link">Skills</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ======================================================================
+       MAIN CONTENT
+       ====================================================================== -->
+  <main id="mainContent">
+
+    <!-- HERO SECTION -->
+    <section class="section hero-section" aria-labelledby="heroHeading">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <!-- Hero Text -->
+          <div class="hero-content reveal">
+            <span class="badge">
+              <span>🎓 </span> 2nd Year ICT / DICT Student
+            </span>
+            <h1 id="heroHeading" class="hero-title">
+              Hi, I'm <span class="highlight">Tshepiso Letelo</span>
+            </h1>
+
+            <h2 class="hero-subtitle" aria-live="off">
+              <span id="heroRole">Web Developer</span>
+            </h2>
+
+            <p class="hero-desc">
+              I’m a second-year ICT student building web applications with PHP and MySQL, and learning C++ and Java for systems programming. I enjoy turning real-world problems into working software, and I’m looking for hands-on opportunities to grow.
+            </p>
+
+            <div class="btn-group">
+              <a href="projects.html" class="btn btn-primary">
+                View My Projects <span>→</span>
+              </a>
+              <a href="contact.html" class="btn btn-outline">
+                Contact Me
+              </a>
+            </div>
+          </div>
+
+          <!-- Hero Visual / Profile Image Placeholder -->
+          <div class="hero-visual reveal">
+            <div class="avatar-wrapper">
+              <!-- Floating Tech Badges -->
+              <div class="floating-badge badge-top-left">
+                <span><img src="images/c++.png" alt="C++" width="24" height="24"></span> C++ &amp; Java
+              </div>
+              <div class="floating-badge badge-bottom-right">
+                <span><img src="images/php.webp" alt="PHP" width="24" height="24"></span> PHP &amp; MySQL
+              </div>
+
+              <!-- Profile Image Container -->
+              <div class="avatar-inner">
+                <!-- 
+                  PROFILE IMAGE NOTE:
+                  To use your personal photograph, place your file into /images/profile.jpg
+                  The tag below will automatically load it, and falls back to SVG if missing.
+                -->
+                <img 
+                  src="images/Mr masingi.jpg" 
+                  alt="Tshepiso Letelo - ICT Student and Aspiring Software Developer" 
+                  class="avatar-img"
+                  referrerpolicy="no-referrer"
+                  onerror="this.onerror=null; this.src='images/Mr masingi.jpg';"
+                />
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- KEY HIGHLIGHTS / QUICK STATS -->
+    <section class="section" style="padding-top: 0;" aria-label="Key highlights">
+      <div class="container">
+        <div class="stats-grid">
+          
+          <div class="stat-card reveal">
+            <span class="stat-icon"></span>
+            <h3 class="stat-title">Diploma in ICT</h3>
+            <p class="stat-desc">
+              Second-year student studying core software engineering, object-oriented programming, data structures, and database architectures.
+            </p>
+          </div>
+
+          <div class="stat-card reveal">
+            <span class="stat-icon"><span></span></span>
+            <h3 class="stat-title">Practical Developer</h3>
+            <p class="stat-desc">
+              Hands-on academic projects spanning C++, Java desktop apps, PHP web portals, relational MySQL schemas, and modern JavaScript.
+            </p>
+          </div>
+
+          <div class="stat-card reveal">
+            <span class="stat-icon"></span>
+            <h3 class="stat-title">Career Ready</h3>
+            <p class="stat-desc">
+              Seeking 2026/2027 internships, graduate programmes, ICT opportunities, and junior software developer roles to create real impact.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED PROJECTS TEASER SECTION -->
+    <section class="section" aria-labelledby="featuredHeading">
+      <div class="container" style="display: flex; flex-direction: column; align-items: center;">
+        <div class="section-header reveal">
+          <span class="section-kicker">Portfolio Showcase</span>
+          <h2 id="featuredHeading" class="section-title">Featured Academic Projects</h2>
+          <p class="section-description">
+            A selection of practical applications demonstrating database design, backend logic, and user-focused web development.
+          </p>
+        </div>
+
+        <div class="projects-grid projects-featured-grid">
+          
+          <!-- Teaser Project 1 -->
+          <article class="project-card reveal">
+            <div class="project-image-wrap">
+              <img 
+                src="image.png" 
+                alt="Student Society Membership System preview" 
+                class="project-img"
+                loading="lazy"
+                onerror="this.onerror=null; this.src='images/project1.jpg';"
+              />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Student Society Membership System</h3>
+              <p class="project-desc">
+                Manages student society members, tiered membership types, extracurricular activities, calendar events, and merchandise inventory.
+              </p>
+              <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">PHP</span>
+                <span class="tag">MySQL</span>
+              </div>
+              <div class="project-actions">
+                <a href="projects.html" class="btn btn-outline btn-sm">Explore Details →</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Teaser Project 2 -->
+          <article class="project-card reveal">
+            <div class="project-image-wrap">
+              <img 
+                src="images/project2.jpg" 
+                alt="Bus Tracking System preview" 
+                class="project-img"
+                loading="lazy"
+                onerror="this.onerror=null; this.src='images/project2.svg';"
+              />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Bus Tracking System</h3>
+              <p class="project-desc">
+                Enables commuters to view bus locations, check arrival estimates, track routes, and stay informed on transit schedules.
+              </p>
+              <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+              </div>
+              <div class="project-actions">
+                <a href="projects.html" class="btn btn-outline btn-sm">Explore Details →</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <div style="text-align: center; margin-top: 2.5rem;" class="reveal">
+          <a href="projects.html" class="btn btn-primary">
+            View All 5 Projects →
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CALL TO ACTION SECTION -->
+    <section class="section" aria-label="Call to action">
+      <div class="container">
+        <div class="card reveal" style="text-align: center; padding: 3rem 1.5rem; background: linear-gradient(135deg, rgba(21, 30, 52, 0.9) 0%, rgba(15, 23, 42, 0.95) 100%); border-color: var(--accent-border);">
+          <span class="section-kicker">Get In Touch</span>
+          <h2 style="font-size: 1.85rem; margin: 0.5rem 0 1rem 0;">Interested in working together or hiring an intern?</h2>
+          <p style="max-width: 600px; margin: 0 auto 1.75rem auto;">
+            I am actively looking for internship and junior developer opportunities where I can contribute, learn, and grow as an engineer.
+          </p>
+          <div class="btn-group" style="justify-content: center;">
+            <a href="contact.html" class="btn btn-primary">Send a Message</a>
+            <a href="about.html" class="btn btn-outline">Read More About Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ======================================================================
+       FOOTER
+       ====================================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-brand">Tshepiso Letelo</div>
+      <div class="footer-subtitle">Second-Year ICT Student • Aspiring Software Developer</div>
+      
+      <!-- Social Links (Replace '#' with your personal profile URLs) -->
+      <div class="footer-socials" aria-label="Social media and contact links">
+        <a href="https://github.com/tshepisoletelo" class="social-link" title="GitHub Profile (Replace with your GitHub link)" aria-label="GitHub">
+          <span><img src="images/github.jpg" alt="GitHub" width="24" height="24"></span>
+        </a>
+        <a href="https://linkedin.com/in/tshepisoletelo" class="social-link" title="LinkedIn Profile (Replace with your LinkedIn link)" aria-label="LinkedIn">
+          <span><img src="images/tshepiso.JPG" alt="LinkedIn" width="24" height="24"></span>
+        </a>
+        <a href="mailto:tshepisoletelo2@gmail.com" class="social-link" title="Send Email" aria-label="Email">
+          <span><img src="images/gmail.jpg" alt="Email" width="24" height="24"></span>
+        </a>
+      </div>
+
+      <p class="footer-copyright">
+        © <span id="currentYear">2026</span> Tshepiso Letelo. All Rights Reserved.
+      </p>
+    </div>
+  </footer>
+
+  <!-- BACK TO TOP BUTTON -->
+  <button type="button" id="backToTop" class="back-to-top" aria-label="Scroll back to top of page">
+    ↑
+  </button>
+
+</body>
+</html>

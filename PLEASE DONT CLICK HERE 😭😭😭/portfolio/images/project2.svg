@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%">
+  <defs>
+    <filter id="softCardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#0f172a" flood-opacity="0.16" />
+    </filter>
+  </defs>
+
+  <!-- Clean Canvas Background -->
+  <rect width="1200" height="675" fill="#f1f3f6" />
+
+  <!-- Main Card Container -->
+  <g transform="translate(190, 85)" filter="url(#softCardShadow)">
+    <clipPath id="cardClip">
+      <rect width="820" height="505" rx="16" />
+    </clipPath>
+
+    <g clip-path="url(#cardClip)">
+      <!-- Left Panel: Deep Navy Blue Gradient -->
+      <rect x="0" y="0" width="355" height="505" fill="#0c1d37" />
+      <path d="M 0 0 L 355 0 L 355 505 L 0 505 Z" fill="url(#navyGrad)" opacity="0.9" />
+
+      <!-- Left Panel Content -->
+      <g transform="translate(36, 40)">
+        <!-- Bus Icon & Logo -->
+        <rect width="36" height="36" rx="8" fill="#1e3a8a" />
+        <path d="M 12 11 C 12 9.5 13.5 8 18 8 C 22.5 8 24 9.5 24 11 L 24 23 C 24 24 23 25 22 25 L 22 27 C 22 27.5 21.5 28 21 28 L 20 28 C 19.5 28 19 27.5 19 27 L 19 25 L 17 25 L 17 27 C 17 27.5 16.5 28 16 28 L 15 28 C 14.5 28 14 27.5 14 27 L 14 25 C 13 25 12 24 12 23 Z" fill="#60a5fa" />
+        <circle cx="15" cy="21" r="1.5" fill="#0c1d37" />
+        <circle cx="21" cy="21" r="1.5" fill="#0c1d37" />
+        <rect x="14" y="12" width="8" height="5" rx="1" fill="#bfdbfe" />
+
+        <text x="46" y="20" font-family="'Inter', sans-serif" font-size="19" font-weight="800" fill="#ffffff" letter-spacing="-0.3">GoTrack</text>
+        <text x="46" y="32" font-family="'Inter', sans-serif" font-size="9" font-weight="700" fill="#93c5fd" letter-spacing="0.8">SMART TRANSIT</text>
+
+        <!-- Subtitle pill -->
+        <text x="0" y="74" font-family="'Inter', sans-serif" font-size="9.5" font-weight="700" fill="#38bdf8" letter-spacing="1">MBOMBELA TRANSIT NETWORK</text>
+
+        <!-- Main Headline -->
+        <text x="0" y="106" font-family="'Inter', sans-serif" font-size="22" font-weight="800" fill="#ffffff" line-height="1.2">Smart commuter</text>
+        <text x="0" y="132" font-family="'Inter', sans-serif" font-size="22" font-weight="800" fill="#ffffff">tracking for</text>
+        <text x="0" y="158" font-family="'Inter', sans-serif" font-size="22" font-weight="800" fill="#ffffff">Mpumalanga.</text>
+
+        <!-- Description Paragraph -->
+        <text x="0" y="188" font-family="'Inter', sans-serif" font-size="10.5" fill="#94a3b8">Track buses live along Crocodile River corridors,</text>
+        <text x="0" y="204" font-family="'Inter', sans-serif" font-size="10.5" fill="#94a3b8">check real-time arrivals, and manage contactless</text>
+        <text x="0" y="220" font-family="'Inter', sans-serif" font-size="10.5" fill="#94a3b8">passes.</text>
+
+        <!-- 3 Feature Cards -->
+        <!-- Feature 1 -->
+        <g transform="translate(0, 246)">
+          <rect width="280" height="42" rx="8" fill="rgba(30, 58, 138, 0.4)" stroke="rgba(147, 197, 253, 0.2)" stroke-width="1" />
+          <circle cx="21" cy="21" r="10" fill="#1e293b" />
+          <circle cx="21" cy="21" r="6" fill="none" stroke="#60a5fa" stroke-width="1.2" />
+          <text x="40" y="18" font-family="'Inter', sans-serif" font-size="10.5" font-weight="700" fill="#ffffff">Real-Time Telemetry</text>
+          <text x="40" y="32" font-family="'Inter', sans-serif" font-size="8.5" fill="#94a3b8">Live GPS tracking for routes R12, R07, R19 &amp; R04</text>
+        </g>
+
+        <!-- Feature 2 -->
+        <g transform="translate(0, 298)">
+          <rect width="280" height="42" rx="8" fill="rgba(30, 58, 138, 0.4)" stroke="rgba(147, 197, 253, 0.2)" stroke-width="1" />
+          <circle cx="21" cy="21" r="10" fill="#1e293b" />
+          <path d="M 21 16 L 24 24 L 21 22 L 18 24 Z" fill="#34d399" />
+          <text x="40" y="18" font-family="'Inter', sans-serif" font-size="10.5" font-weight="700" fill="#ffffff">Interactive Stop Navigator</text>
+          <text x="40" y="32" font-family="'Inter', sans-serif" font-size="8.5" fill="#94a3b8">Boarding bay guidance for Riverside Mall &amp; Promenade</text>
+        </g>
+
+        <!-- Feature 3 -->
+        <g transform="translate(0, 350)">
+          <rect width="280" height="42" rx="8" fill="rgba(30, 58, 138, 0.4)" stroke="rgba(147, 197, 253, 0.2)" stroke-width="1" />
+          <circle cx="21" cy="21" r="10" fill="#1e293b" />
+          <rect x="16" y="18" width="10" height="6" rx="1" fill="#c084fc" />
+          <text x="40" y="18" font-family="'Inter', sans-serif" font-size="10.5" font-weight="700" fill="#ffffff">R50 Welcome Credit</text>
+          <text x="40" y="32" font-family="'Inter', sans-serif" font-size="8.5" fill="#94a3b8">Automatic digital pass credited upon registration</text>
+        </g>
+      </g>
+
+      <!-- Right Panel: White Form -->
+      <rect x="355" y="0" width="465" height="505" fill="#ffffff" />
+
+      <!-- Right Panel Content -->
+      <g transform="translate(385, 30)">
+        <!-- Top Tabs Pill -->
+        <rect x="0" y="0" width="280" height="32" rx="16" fill="#f1f5f9" />
+        <rect x="2" y="2" width="95" height="28" rx="14" fill="#ffffff" />
+        <text x="49" y="19" font-family="'Inter', sans-serif" font-size="10" font-weight="700" fill="#0f172a" text-anchor="middle">Create Account</text>
+        <text x="145" y="19" font-family="'Inter', sans-serif" font-size="10" font-weight="600" fill="#64748b" text-anchor="middle">Sign In</text>
+        <text x="230" y="19" font-family="'Inter', sans-serif" font-size="10" font-weight="600" fill="#64748b" text-anchor="middle">🛡️ Admin Login</text>
+
+        <!-- Form Heading -->
+        <text x="0" y="66" font-family="'Inter', sans-serif" font-size="18" font-weight="800" fill="#0f172a">Create your passenger account</text>
+        <text x="0" y="84" font-family="'Inter', sans-serif" font-size="10.5" fill="#64748b">Register in 30 seconds to track buses, top up fares, and view live arrivals.</text>
+
+        <!-- Field 1: Full Name -->
+        <text x="0" y="112" font-family="'Inter', sans-serif" font-size="10" font-weight="600" fill="#334155">Full Name</text>
+        <rect x="0" y="120" width="405" height="34" rx="6" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.2" />
+        <text x="12" y="141" font-family="'Inter', sans-serif" font-size="12" fill="#94a3b8">👤</text>
+        <text x="32" y="141" font-family="'Inter', sans-serif" font-size="11" fill="#94a3b8">e.g. Tshepiso Mokoena</text>
+
+        <!-- Field 2: Email Address -->
+        <text x="0" y="174" font-family="'Inter', sans-serif" font-size="10" font-weight="600" fill="#334155">Email Address</text>
+        <rect x="0" y="182" width="405" height="34" rx="6" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.2" />
+        <text x="12" y="203" font-family="'Inter', sans-serif" font-size="12" fill="#94a3b8">✉️</text>
+        <text x="32" y="203" font-family="'Inter', sans-serif" font-size="11" fill="#94a3b8">you@example.com</text>
+
+        <!-- Field 3: Password -->
+        <text x="0" y="236" font-family="'Inter', sans-serif" font-size="10" font-weight="600" fill="#334155">Password</text>
+        <rect x="0" y="244" width="405" height="34" rx="6" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.2" />
+        <text x="12" y="265" font-family="'Inter', sans-serif" font-size="12" fill="#94a3b8">🔒</text>
+        <text x="32" y="265" font-family="'Inter', sans-serif" font-size="11" fill="#94a3b8">At least 6 characters</text>
+        <text x="382" y="265" font-family="'Inter', sans-serif" font-size="12" fill="#94a3b8">👁️</text>
+
+        <!-- Field 4: Commuter Profile -->
+        <text x="0" y="298" font-family="'Inter', sans-serif" font-size="10" font-weight="600" fill="#334155">Commuter Profile</text>
+        <rect x="0" y="306" width="405" height="34" rx="6" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.2" />
+        <text x="12" y="327" font-family="'Inter', sans-serif" font-size="11" fill="#1e293b">Daily Work Commuter (Riverside / CBD)</text>
+        <text x="385" y="327" font-family="'Inter', sans-serif" font-size="10" fill="#64748b">▼</text>
+
+        <!-- Checkbox -->
+        <rect x="0" y="354" width="13" height="13" rx="3" fill="#2563eb" />
+        <path d="M 3 360 L 6 363 L 10 357" stroke="#ffffff" stroke-width="1.8" fill="none" />
+        <text x="20" y="364" font-family="'Inter', sans-serif" font-size="9.5" fill="#475569">
+          I accept the <tspan font-weight="700" fill="#0f172a">GoTrack Transit Terms of Service</tspan> and agree to receive route alerts.
+        </text>
+
+        <!-- Blue Action Button -->
+        <rect x="0" y="382" width="405" height="38" rx="7" fill="#1d4ed8" />
+        <text x="202.5" y="405" font-family="'Inter', sans-serif" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">
+          Create Passenger Account →
+        </text>
+
+        <!-- Version Footer -->
+        <text x="405" y="445" font-family="'Inter', sans-serif" font-size="8.5" fill="#94a3b8" text-anchor="end">
+          GoTrack Mpumalanga v2.4
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>

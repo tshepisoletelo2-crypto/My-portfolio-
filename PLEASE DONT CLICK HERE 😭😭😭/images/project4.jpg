@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p4Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1020" />
+      <stop offset="100%" stop-color="#141c33" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#p4Grad)" />
+
+  <!-- Window Frame -->
+  <rect x="50" y="40" width="700" height="370" rx="12" fill="#0f172a" stroke="#1e293b" stroke-width="2" />
+  
+  <!-- Header Bar -->
+  <rect x="50" y="40" width="700" height="45" rx="12" fill="#151e34" />
+  <circle cx="80" cy="62" r="6" fill="#ef4444" />
+  <circle cx="102" cy="62" r="6" fill="#f59e0b" />
+  <circle cx="124" cy="62" r="6" fill="#10b981" />
+  <text x="400" y="67" font-family="'JetBrains Mono', monospace" font-size="14" fill="#94a3b8" text-anchor="middle">Student Information &amp; Database Manager (MySQL)</text>
+
+  <!-- Search / Filter Action Bar -->
+  <g transform="translate(75, 105)">
+    <rect width="400" height="36" rx="6" fill="#151e34" stroke="#1e293b" />
+    <text x="15" y="23" font-family="'Inter', sans-serif" font-size="12" fill="#64748b">🔍 Search student by ID, surname or program...</text>
+
+    <rect x="420" y="0" width="100" height="36" rx="6" fill="#00d2c4" />
+    <text x="470" y="23" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#04121a" text-anchor="middle">+ Add Record</text>
+
+    <rect x="535" y="0" width="115" height="36" rx="6" fill="#1e293b" />
+    <text x="592" y="23" font-family="'Inter', sans-serif" font-size="12" font-weight="500" fill="#f8fafc" text-anchor="middle">Export SQL</text>
+  </g>
+
+  <!-- Database Grid Table -->
+  <rect x="75" y="160" width="650" height="225" rx="8" fill="#151e34" stroke="#1e293b" />
+  
+  <!-- Table Header -->
+  <rect x="75" y="160" width="650" height="38" rx="8" fill="#1e293b" />
+  <text x="95" y="184" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#f8fafc">STUDENT ID</text>
+  <text x="210" y="184" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#f8fafc">STUDENT NAME</text>
+  <text x="370" y="184" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#f8fafc">PROGRAMME</text>
+  <text x="510" y="184" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#f8fafc">YEAR</text>
+  <text x="610" y="184" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#f8fafc">ACTIONS</text>
+
+  <!-- Rows -->
+  <g font-family="'JetBrains Mono', monospace" font-size="12">
+    <text x="95" y="224" fill="#00d2c4">202308412</text>
+    <text x="210" y="224" fill="#f8fafc">Tshepiso Letelo</text>
+    <text x="370" y="224" fill="#94a3b8">Diploma in ICT</text>
+    <text x="510" y="224" fill="#f8fafc">Year 2</text>
+    <text x="610" y="224" fill="#38bdf8">[ Edit ]</text>
+
+    <line x1="75" y1="242" x2="725" y2="242" stroke="#1e293b" stroke-width="1" />
+
+    <text x="95" y="272" fill="#00d2c4">202309118</text>
+    <text x="210" y="272" fill="#f8fafc">Nomsa Nkosi</text>
+    <text x="370" y="272" fill="#94a3b8">Diploma in ICT</text>
+    <text x="510" y="272" fill="#f8fafc">Year 2</text>
+    <text x="610" y="272" fill="#38bdf8">[ Edit ]</text>
+
+    <line x1="75" y1="290" x2="725" y2="290" stroke="#1e293b" stroke-width="1" />
+
+    <text x="95" y="320" fill="#00d2c4">202401205</text>
+    <text x="210" y="320" fill="#f8fafc">Lwazi Sithole</text>
+    <text x="370" y="320" fill="#94a3b8">BSc Computer Sci</text>
+    <text x="510" y="320" fill="#f8fafc">Year 1</text>
+    <text x="610" y="320" fill="#38bdf8">[ Edit ]</text>
+
+    <line x1="75" y1="338" x2="725" y2="338" stroke="#1e293b" stroke-width="1" />
+
+    <text x="95" y="366" fill="#00d2c4">202206734</text>
+    <text x="210" y="366" fill="#f8fafc">Bongani Mokoena</text>
+    <text x="370" y="366" fill="#94a3b8">Diploma in ICT</text>
+    <text x="510" y="366" fill="#f8fafc">Year 3</text>
+    <text x="610" y="366" fill="#38bdf8">[ Edit ]</text>
+  </g>
+</svg>

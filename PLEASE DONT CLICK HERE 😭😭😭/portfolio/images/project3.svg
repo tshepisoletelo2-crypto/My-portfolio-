@@ -1,0 +1,216 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="100%" height="100%">
+  <defs>
+    <filter id="winShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="12" stdDeviation="20" flood-color="#000000" flood-opacity="0.12" />
+    </filter>
+  </defs>
+
+  <!-- Desktop Backdrop -->
+  <rect width="1200" height="750" fill="#e2e8f0" />
+
+  <!-- Main JavaFX Window -->
+  <g transform="translate(15, 12)" filter="url(#winShadow)">
+    <rect width="1170" height="726" rx="8" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5" />
+
+    <!-- Window Title Bar -->
+    <rect width="1170" height="34" rx="8" fill="#e2e8f0" />
+    <circle cx="20" cy="17" r="5" fill="#ef4444" />
+    <circle cx="36" cy="17" r="5" fill="#f59e0b" />
+    <circle cx="52" cy="17" r="5" fill="#10b981" />
+
+    <!-- JavaFX Logo & Title -->
+    <text x="75" y="21" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#0284c7">JavaFX 21</text>
+    <text x="145" y="21" font-family="'Inter', sans-serif" font-size="11.5" font-weight="700" fill="#1e293b">• University Fee Calculator</text>
+    <text x="315" y="21" font-family="'Inter', sans-serif" font-size="10.5" fill="#64748b">— PrimaryStage (edu.university.feecalculator.MainApp)</text>
+
+    <!-- Top Right Preset dropdown -->
+    <rect x="990" y="6" width="165" height="22" rx="4" fill="#ffffff" stroke="#cbd5e1" />
+    <text x="1000" y="21" font-family="'Inter', sans-serif" font-size="10" fill="#334155">Load Preset Scenario...</text>
+    <text x="1140" y="21" font-family="'Inter', sans-serif" font-size="9" fill="#64748b">▼</text>
+
+    <!-- Menu Bar -->
+    <rect x="0" y="34" width="1170" height="28" fill="#f1f5f9" border-bottom="1" />
+    <g transform="translate(16, 52)" font-family="'Inter', sans-serif" font-size="11" fill="#334155">
+      <text x="0" y="0">File</text>
+      <text x="36" y="0">Presets</text>
+      <text x="94" y="0">TabPanes</text>
+      <text x="160" y="0">View</text>
+      <text x="204" y="0">Help</text>
+
+      <!-- Inspector Buttons -->
+      <rect x="880" y="-12" width="140" height="20" rx="3" fill="#ffffff" stroke="#cbd5e1" />
+      <text x="888" y="2" font-size="9.5" fill="#0284c7" font-weight="600">&lt;/&gt; FXML &amp; Java Inspector</text>
+      <rect x="1030" y="-12" width="110" height="20" rx="3" fill="#ffffff" stroke="#cbd5e1" />
+      <text x="1040" y="2" font-size="9.5" fill="#334155">🖨️ Print Statement</text>
+    </g>
+
+    <!-- Tab Bar -->
+    <rect x="0" y="62" width="1170" height="34" fill="#e2e8f0" />
+    <!-- Active Tab 1 -->
+    <rect x="6" y="66" width="225" height="30" rx="4" fill="#ffffff" />
+    <text x="18" y="86" font-family="'Inter', sans-serif" font-size="11" font-weight="700" fill="#0284c7">👤 Student Profile &amp; Residency</text>
+    <rect x="190" y="73" width="34" height="15" rx="3" fill="#e0f2fe" />
+    <text x="207" y="84" font-family="'Inter', sans-serif" font-size="8.5" font-weight="700" fill="#0284c7" text-anchor="middle">UNDER</text>
+
+    <!-- Tab 2 -->
+    <text x="250" y="86" font-family="'Inter', sans-serif" font-size="11" fill="#64748b">📖 Credit Modules &amp; Enrollment</text>
+    <rect x="420" y="73" width="28" height="15" rx="3" fill="#cbd5e1" />
+    <text x="434" y="84" font-family="'Inter', sans-serif" font-size="8.5" font-weight="700" fill="#475569" text-anchor="middle">15 Cr</text>
+
+    <!-- Tab 3 -->
+    <text x="465" y="86" font-family="'Inter', sans-serif" font-size="11" fill="#64748b">🏛️ Campus &amp; Ancillary Fees</text>
+    <rect x="618" y="73" width="36" height="15" rx="3" fill="#cbd5e1" />
+    <text x="636" y="84" font-family="'Inter', sans-serif" font-size="8.5" font-weight="700" fill="#475569" text-anchor="middle">$7670</text>
+
+    <!-- Tab 4 -->
+    <text x="670" y="86" font-family="'Inter', sans-serif" font-size="11" fill="#64748b">🎓 Financial Assistance &amp; Aid</text>
+    <rect x="836" y="73" width="36" height="15" rx="3" fill="#cbd5e1" />
+    <text x="854" y="84" font-family="'Inter', sans-serif" font-size="8.5" font-weight="700" fill="#475569" text-anchor="middle">$6700</text>
+
+    <!-- Tab 5 -->
+    <text x="888" y="86" font-family="'Inter', sans-serif" font-size="11" fill="#64748b">📄 Official Fee Statement</text>
+
+    <!-- Content Area -->
+    <!-- Info Banner -->
+    <g transform="translate(18, 110)">
+      <rect width="1134" height="66" rx="6" fill="#f0f9ff" stroke="#bae6fd" stroke-width="1.2" />
+      <circle cx="28" cy="33" r="10" fill="#0284c7" />
+      <text x="28" y="37" font-family="'Inter', sans-serif" font-size="12" font-weight="800" fill="#ffffff" text-anchor="middle">i</text>
+      <text x="48" y="27" font-family="'Inter', sans-serif" font-size="12" font-weight="700" fill="#0369a1">Official University Matriculation &amp; Residency Registry</text>
+      <text x="48" y="47" font-family="'Inter', sans-serif" font-size="10.5" fill="#0284c7">
+        Tuition rates and residency multiplier regulations are governed by the Board of Regents Academic Policies. Residency classification determines the statutory tuition per credit hour, housing allocation priority, and
+      </text>
+      <text x="48" y="60" font-family="'Inter', sans-serif" font-size="10.5" fill="#0284c7">
+        mandatory F-1 compliance assessments.
+      </text>
+    </g>
+
+    <!-- Section: Student Identification & Academic Term -->
+    <g transform="translate(18, 190)">
+      <rect width="555" height="225" rx="6" fill="#ffffff" stroke="#e2e8f0" />
+      <text x="20" y="26" font-family="'Inter', sans-serif" font-size="12.5" font-weight="700" fill="#0f172a">👤 Student Identification &amp; Academic Term</text>
+
+      <!-- Full Name -->
+      <text x="20" y="55" font-family="'Inter', sans-serif" font-size="10" font-weight="600" fill="#475569">Full Name</text>
+      <rect x="20" y="62" width="515" height="28" rx="4" fill="#ffffff" stroke="#cbd5e1" />
+      <text x="32" y="80" font-family="'Inter', sans-serif" font-size="11.5" fill="#0f172a">Emily J. Vance</text>
+
+      <!-- Student ID & Academic Term -->
+      <text x="20" y="112" font-family="'Inter', sans-serif" font-size="10" font-weight="600" fill="#475569">Student ID Number</text>
+      <rect x="20" y="120" width="245" height="28" rx="4" fill="#ffffff" stroke="#cbd5e1" />
+      <text x="32" y="138" font-family="'Inter', sans-serif" font-size="11.5" fill="#0f172a">STU-2026-8812</text>
+
+      <text x="285" y="112" font-family="'Inter', sans-serif" font-size="10" font-weight="600" fill="#475569">Enrolling Academic Term</text>
+      <rect x="285" y="120" width="250" height="28" rx="4" fill="#ffffff" stroke="#cbd5e1" />
+      <text x="297" y="138" font-family="'Inter', sans-serif" font-size="11.5" fill="#0f172a">Fall Semester 2026</text>
+      <text x="520" y="138" font-family="'Inter', sans-serif" font-size="9" fill="#64748b">▼</text>
+
+      <!-- Department / Major & Email -->
+      <text x="20" y="168" font-family="'Inter', sans-serif" font-size="10" font-weight="600" fill="#475569">Department / Major</text>
+      <rect x="20" y="176" width="245" height="28" rx="4" fill="#ffffff" stroke="#cbd5e1" />
+      <text x="32" y="194" font-family="'Inter', sans-serif" font-size="10.5" fill="#0f172a">Computer Science &amp; Software Eng.</text>
+      <text x="250" y="194" font-family="'Inter', sans-serif" font-size="9" fill="#64748b">▼</text>
+
+      <text x="285" y="168" font-family="'Inter', sans-serif" font-size="10" font-weight="600" fill="#475569">Institutional Email</text>
+      <rect x="285" y="176" width="250" height="28" rx="4" fill="#ffffff" stroke="#cbd5e1" />
+      <text x="297" y="194" font-family="'Inter', sans-serif" font-size="11" fill="#0f172a">e.vance@university.edu</text>
+    </g>
+
+    <!-- Section: Degree Level & Base Credit Tier -->
+    <g transform="translate(595, 190)">
+      <rect width="557" height="225" rx="6" fill="#ffffff" stroke="#e2e8f0" />
+      <text x="20" y="26" font-family="'Inter', sans-serif" font-size="12.5" font-weight="700" fill="#0f172a">🎓 Degree Level &amp; Base Credit Tier</text>
+
+      <!-- Option 1: Undergraduate (selected) -->
+      <g transform="translate(20, 45)">
+        <rect width="250" height="74" rx="6" fill="#f0f9ff" stroke="#0284c7" stroke-width="1.8" />
+        <text x="16" y="24" font-family="'Inter', sans-serif" font-size="11" font-weight="700" fill="#0f172a">Undergraduate (BS/BA)</text>
+        <circle cx="228" cy="20" r="7" fill="#0284c7" />
+        <path d="M 224 20 L 227 23 L 232 17" stroke="#ffffff" stroke-width="1.5" fill="none" />
+        <text x="16" y="44" font-family="'JetBrains Mono', monospace" font-size="11.5" font-weight="700" fill="#0284c7">$340 <tspan font-family="'Inter', sans-serif" font-size="10" font-weight="400" fill="#64748b">/ credit</tspan></text>
+        <text x="16" y="62" font-family="'Inter', sans-serif" font-size="9" fill="#64748b">Baccalaureate degree coursework</text>
+      </g>
+
+      <!-- Option 2: Graduate -->
+      <g transform="translate(285, 45)">
+        <rect width="250" height="74" rx="6" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.2" />
+        <text x="16" y="24" font-family="'Inter', sans-serif" font-size="11" font-weight="700" fill="#0f172a">Graduate (MS/MA/MBA)</text>
+        <text x="16" y="44" font-family="'JetBrains Mono', monospace" font-size="11.5" font-weight="700" fill="#0284c7">$580 <tspan font-family="'Inter', sans-serif" font-size="10" font-weight="400" fill="#64748b">/ credit</tspan></text>
+        <text x="16" y="62" font-family="'Inter', sans-serif" font-size="9" fill="#64748b">Post-graduate master level study</text>
+      </g>
+
+      <!-- Option 3: Doctoral -->
+      <g transform="translate(20, 130)">
+        <rect width="250" height="74" rx="6" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.2" />
+        <text x="16" y="24" font-family="'Inter', sans-serif" font-size="11" font-weight="700" fill="#0f172a">Doctoral (PhD/EdD)</text>
+        <text x="16" y="44" font-family="'JetBrains Mono', monospace" font-size="11.5" font-weight="700" fill="#0284c7">$650 <tspan font-family="'Inter', sans-serif" font-size="10" font-weight="400" fill="#64748b">/ credit</tspan></text>
+        <text x="16" y="62" font-family="'Inter', sans-serif" font-size="9" fill="#64748b">Dissertation and advanced research</text>
+      </g>
+
+      <!-- Option 4: Professional -->
+      <g transform="translate(285, 130)">
+        <rect width="250" height="74" rx="6" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.2" />
+        <text x="16" y="24" font-family="'Inter', sans-serif" font-size="11" font-weight="700" fill="#0f172a">Professional (JD / MD)</text>
+        <text x="16" y="44" font-family="'JetBrains Mono', monospace" font-size="11.5" font-weight="700" fill="#0284c7">$820 <tspan font-family="'Inter', sans-serif" font-size="10" font-weight="400" fill="#64748b">/ credit</tspan></text>
+        <text x="16" y="62" font-family="'Inter', sans-serif" font-size="9" fill="#64748b">Clinical law and medical programs</text>
+      </g>
+    </g>
+
+    <!-- Section: Statutory Residency Status Classification -->
+    <g transform="translate(18, 430)">
+      <rect width="1134" height="155" rx="6" fill="#ffffff" stroke="#e2e8f0" />
+      <text x="20" y="26" font-family="'Inter', sans-serif" font-size="12.5" font-weight="700" fill="#0f172a">📍 Statutory Residency Status Classification</text>
+
+      <!-- Card 1: In-State Resident (Active) -->
+      <g transform="translate(20, 42)">
+        <rect width="345" height="95" rx="6" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.5" />
+        <text x="16" y="26" font-family="'Inter', sans-serif" font-size="12" font-weight="700" fill="#0f172a">In-State Resident</text>
+        <rect x="250" y="12" width="80" height="18" rx="4" fill="#dcfce7" />
+        <text x="290" y="25" font-family="'Inter', sans-serif" font-size="9.5" font-weight="700" fill="#15803d" text-anchor="middle">1.0x Base Rate</text>
+        <text x="16" y="50" font-family="'Inter', sans-serif" font-size="9.5" fill="#475569">Eligible state residents with verified 12-month domicile.</text>
+        <text x="16" y="65" font-family="'Inter', sans-serif" font-size="9.5" fill="#475569">Qualifies for baseline subsidised state educational appropriations.</text>
+        <text x="16" y="84" font-family="'Inter', sans-serif" font-size="9" font-weight="600" fill="#15803d">No residency surcharge or out-of-state capital levy.</text>
+      </g>
+
+      <!-- Card 2: Out-of-State Domestic -->
+      <g transform="translate(385, 42)">
+        <rect width="345" height="95" rx="6" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.2" />
+        <text x="16" y="26" font-family="'Inter', sans-serif" font-size="12" font-weight="700" fill="#0f172a">Out-of-State Domestic</text>
+        <rect x="245" y="12" width="85" height="18" rx="4" fill="#e0f2fe" />
+        <text x="287" y="25" font-family="'Inter', sans-serif" font-size="9.5" font-weight="700" fill="#0284c7" text-anchor="middle">2.30x Multiplier</text>
+        <text x="16" y="50" font-family="'Inter', sans-serif" font-size="9.5" fill="#475569">U.S. citizens or permanent residents with primary domicile</text>
+        <text x="16" y="65" font-family="'Inter', sans-serif" font-size="9.5" fill="#475569">outside state boundaries.</text>
+        <text x="16" y="84" font-family="'Inter', sans-serif" font-size="9" fill="#0284c7">Includes statutory $380 semester capital outlay fee.</text>
+      </g>
+
+      <!-- Card 3: International Student -->
+      <g transform="translate(750, 42)">
+        <rect width="365" height="95" rx="6" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.2" />
+        <text x="16" y="26" font-family="'Inter', sans-serif" font-size="12" font-weight="700" fill="#0f172a">International Student</text>
+        <rect x="260" y="12" width="90" height="18" rx="4" fill="#ede9fe" />
+        <text x="305" y="25" font-family="'Inter', sans-serif" font-size="9.5" font-weight="700" fill="#7c3aed" text-anchor="middle">2.85x Multiplier</text>
+        <text x="16" y="50" font-family="'Inter', sans-serif" font-size="9.5" fill="#475569">Holding F-1, J-1, or non-immigrant student visa status. Requires</text>
+        <text x="16" y="65" font-family="'Inter', sans-serif" font-size="9.5" fill="#475569">SEVIS tracking and institutional compliance.</text>
+        <text x="16" y="84" font-family="'Inter', sans-serif" font-size="9" fill="#7c3aed">Includes $450 SEVIS compliance + mandatory health coverage.</text>
+      </g>
+    </g>
+
+    <!-- Bottom Section: Campus Residential Life & Dining Services -->
+    <g transform="translate(18, 600)">
+      <rect width="1134" height="110" rx="6" fill="#ffffff" stroke="#e2e8f0" />
+      <text x="20" y="24" font-family="'Inter', sans-serif" font-size="12.5" font-weight="700" fill="#0f172a">🏠 Campus Residential Life &amp; Dining Services</text>
+
+      <text x="20" y="52" font-family="'Inter', sans-serif" font-size="10" font-weight="600" fill="#475569">Residence Hall / Housing Selection</text>
+      <rect x="20" y="62" width="515" height="36" rx="4" fill="#ffffff" stroke="#cbd5e1" />
+      <circle cx="36" cy="80" r="5" fill="#0284c7" />
+      <text x="52" y="84" font-family="'Inter', sans-serif" font-size="11" fill="#0f172a">Traditional Residence Hall (Shared double)</text>
+      <text x="440" y="84" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#0284c7">$4,150 <tspan font-family="'Inter', sans-serif" font-size="9" fill="#64748b">/ sem</tspan></text>
+
+      <text x="575" y="52" font-family="'Inter', sans-serif" font-size="10" font-weight="600" fill="#475569">University Dining Meal Plan</text>
+      <rect x="575" y="62" width="540" height="36" rx="4" fill="#ffffff" stroke="#cbd5e1" />
+      <circle cx="591" cy="80" r="5" fill="#0284c7" />
+      <text x="607" y="84" font-family="'Inter', sans-serif" font-size="11" fill="#0f172a">Unlimited Campus Dining Pass (All Access)</text>
+      <text x="1030" y="84" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#0284c7">$2,680 <tspan font-family="'Inter', sans-serif" font-size="9" fill="#64748b">/ sem</tspan></text>
+    </g>
+  </g>
+</svg>

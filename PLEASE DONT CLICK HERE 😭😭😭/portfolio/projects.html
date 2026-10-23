@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Tshepiso Letelo - ICT Student & Aspiring Software Developer</title>
+  <meta name="description" content="Explore software development and academic projects created by Tshepiso Letelo, including Java desktop apps, PHP & MySQL web portals, and JavaScript applications." />
+  <meta property="og:title" content="Projects | Tshepiso Letelo - ICT Student & Aspiring Software Developer" />
+  <meta property="og:description" content="Portfolio projects showcasing software engineering, web development, and database architecture." />
+  <meta property="og:type" content="website" />
+
+  <!-- Google Fonts: Inter and JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Main JavaScript -->
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+
+  <!-- ======================================================================
+       HEADER & NAVIGATION
+       ====================================================================== -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="nav-brand" aria-label="Tshepiso Letelo - Home">
+        <span class="brand-bracket">&lt;</span>Tshepiso Letelo<span class="brand-bracket"> /&gt;</span>
+      </a>
+
+      <!-- Mobile Hamburger Button -->
+      <button 
+        type="button" 
+        class="nav-toggle" 
+        id="navToggle" 
+        aria-label="Toggle navigation menu" 
+        aria-expanded="false" 
+        aria-controls="navMenu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <!-- Navigation Links -->
+      <nav class="nav-menu" id="navMenu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="skills.html" class="nav-link">Skills</a>
+        <a href="projects.html" class="nav-link active">Projects</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ======================================================================
+       MAIN CONTENT
+       ====================================================================== -->
+  <main id="mainContent">
+
+    <section class="section" aria-labelledby="projectsHeading">
+      <div class="container">
+        
+        <!-- Section Header -->
+        <div class="section-header reveal">
+          <span class="section-kicker">Practical Work</span>
+          <h1 id="projectsHeading" class="section-title">Featured Projects</h1>
+          <p class="section-description">
+            A portfolio of academic software systems and web applications demonstrating front-end design, backend logic, object-oriented programming, and relational database management.
+          </p>
+        </div>
+
+        <!-- Category Filter Buttons -->
+        <div class="filter-container reveal" role="tablist" aria-label="Project category filters">
+          <button type="button" class="filter-btn active" data-filter="all" role="tab" aria-selected="true">
+            All Projects (5)
+          </button>
+          <button type="button" class="filter-btn" data-filter="web" role="tab" aria-selected="false">
+            Web Development
+          </button>
+          <button type="button" class="filter-btn" data-filter="java" role="tab" aria-selected="false">
+            Java &amp; OOP
+          </button>
+          <button type="button" class="filter-btn" data-filter="database" role="tab" aria-selected="false">
+            Database &amp; MySQL
+          </button>
+        </div>
+
+        <!-- 
+          PROJECTS GRID CONTAINER:
+          Rendered dynamically by JavaScript from the `projectsData` array in `js/script.js`.
+          To edit project titles, descriptions, GitHub links, or live URLs, modify `js/script.js`.
+          The fallback cards below ensure instant display if scripts load progressively.
+        -->
+        <div id="projectsGrid" class="projects-grid">
+          
+          <!-- Project 1: Student Society Membership System -->
+          <article class="project-card reveal" data-category="web database">
+            <div class="project-image-wrap">
+              <img 
+                src="image.png" 
+                alt="Student Society Membership System interface preview" 
+                class="project-img"
+                loading="lazy"
+                onerror="this.onerror=null; this.src='images/project1.jpg';"
+              />
+            </div>
+            <div class="project-content">
+              <h2 class="project-title">Student Society Membership System</h2>
+              <p class="project-desc">
+                A comprehensive web application designed to manage student society members, tiered membership types, society activities, calendar events, and merchandise inventory tracking.
+              </p>
+              <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">PHP</span>
+                <span class="tag">MySQL</span>
+              </div>
+              <div class="project-actions">
+                <!-- Replace '#' with your actual project demo link in js/script.js or here -->
+                <a href="#" class="btn btn-primary btn-sm" aria-label="View Student Society Membership System project details">
+                  View Project ↗
+                </a>
+                <!-- Replace '#' with your GitHub repository link in js/script.js or here -->
+                <a href="#" class="btn btn-outline btn-sm" aria-label="View Student Society Membership System GitHub repository">
+                  GitHub ↗
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Bus Tracking System -->
+          <article class="project-card reveal" data-category="web">
+            <div class="project-image-wrap">
+              <img 
+                src="images/project2.jpg" 
+                alt="Bus Tracking System interactive interface preview" 
+                class="project-img"
+                loading="lazy"
+                onerror="this.onerror=null; this.src='images/project2.svg';"
+              />
+            </div>
+            <div class="project-content">
+              <h2 class="project-title">Bus Tracking System</h2>
+              <p class="project-desc">
+                An intuitive public transport interface enabling commuters to track real-time bus locations, check upcoming arrival estimates, view route stops, and receive schedule alerts.
+              </p>
+              <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+              </div>
+              <div class="project-actions">
+                <a href="#" class="btn btn-primary btn-sm" aria-label="View Bus Tracking System project details">
+                  View Project ↗
+                </a>
+                <a href="#" class="btn btn-outline btn-sm" aria-label="View Bus Tracking System GitHub repository">
+                  GitHub ↗
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: University Fee Calculator -->
+          <article class="project-card reveal" data-category="java">
+            <div class="project-image-wrap">
+              <img 
+                src="images/project3.jpg" 
+                alt="University Fee Calculator JavaFX application preview" 
+                class="project-img"
+                loading="lazy"
+                onerror="this.onerror=null; this.src='images/project3.svg';"
+              />
+            </div>
+            <div class="project-content">
+              <h2 class="project-title">University Fee Calculator</h2>
+              <p class="project-desc">
+                A desktop application developed with Java and JavaFX that calculates academic tuition fees according to enrolled credit modules, residency status, and financial assistance options.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Java</span>
+                <span class="tag">JavaFX</span>
+              </div>
+              <div class="project-actions">
+                <a href="#" class="btn btn-primary btn-sm" aria-label="View University Fee Calculator project details">
+                  View Project ↗
+                </a>
+                <a href="#" class="btn btn-outline btn-sm" aria-label="View University Fee Calculator GitHub repository">
+                  GitHub ↗
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: Student Management System -->
+          <article class="project-card reveal" data-category="java database">
+            <div class="project-image-wrap">
+              <img 
+                src="images/project4.jpg" 
+                alt="Student Management System database UI preview" 
+                class="project-img"
+                loading="lazy"
+                onerror="this.onerror=null; this.src='images/project4.svg';"
+              />
+            </div>
+            <div class="project-content">
+              <h2 class="project-title">Student Management System</h2>
+              <p class="project-desc">
+                An administrative desktop software solution that stores, updates, searches, and generates academic records, grading data, and course enrollments with secure MySQL storage.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Java</span>
+                <span class="tag">MySQL</span>
+              </div>
+              <div class="project-actions">
+                <a href="#" class="btn btn-primary btn-sm" aria-label="View Student Management System project details">
+                  View Project ↗
+                </a>
+                <a href="#" class="btn btn-outline btn-sm" aria-label="View Student Management System GitHub repository">
+                  GitHub ↗
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 5: Activity-Bank-Account- -->
+          <article class="project-card reveal" data-category="java database">
+            <div class="project-image-wrap">
+              <img 
+                src="images/project5.jpg" 
+                alt="Activity-Bank-Account- system interface preview" 
+                class="project-img"
+                loading="lazy"
+                onerror="this.onerror=null; this.src='images/project5.svg';"
+              />
+            </div>
+            <div class="project-content">
+              <h2 class="project-title">Activity-Bank-Account-</h2>
+              <p class="project-desc">
+                An object-oriented banking simulation application implementing secure account management, balance inquiries, deposit and withdrawal transactions, overdraft calculations, and chronological account activity logs.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Java</span>
+                <span class="tag">OOP</span>
+                <span class="tag">Data Structures</span>
+              </div>
+              <div class="project-actions">
+                <a href="#" class="btn btn-primary btn-sm" aria-label="View Activity-Bank-Account- project details">
+                  View Project ↗
+                </a>
+                <a href="#" class="btn btn-outline btn-sm" aria-label="View Activity-Bank-Account- GitHub repository">
+                  GitHub ↗
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Bottom Callout -->
+        <div class="card reveal" style="margin-top: 3.5rem; text-align: center; padding: 2.5rem 1.5rem;">
+          <h3 style="font-size: 1.35rem; margin-bottom: 0.5rem;">Interested in reviewing code repositories?</h3>
+          <p style="max-width: 550px; margin: 0 auto 1.5rem auto;">
+            All projects follow modular architecture and documented source code. Visit my GitHub profile or get in touch for repository access.
+          </p>
+          <div class="btn-group" style="justify-content: center;">
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">Visit GitHub Profile ↗</a>
+            <a href="contact.html" class="btn btn-primary btn-sm">Contact Me Directly</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ======================================================================
+       FOOTER
+       ====================================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-brand">Tshepiso Letelo</div>
+      <div class="footer-subtitle">Second-Year ICT Student • Aspiring Software Developer</div>
+      
+      <div class="footer-socials" aria-label="Social media and contact links">
+        <a href="#" class="social-link" title="GitHub Profile (Replace with your GitHub link)" aria-label="GitHub">
+          <span>🐙</span>
+        </a>
+        <a href="#" class="social-link" title="LinkedIn Profile (Replace with your LinkedIn link)" aria-label="LinkedIn">
+          <span>💼</span>
+        </a>
+        <a href="mailto:tshepisoletelo2@gmail.com" class="social-link" title="Send Email" aria-label="Email">
+          <span>✉️</span>
+        </a>
+      </div>
+
+      <p class="footer-copyright">
+        © <span id="currentYear">2026</span> Tshepiso Letelo. All Rights Reserved.
+      </p>
+    </div>
+  </footer>
+
+  <!-- BACK TO TOP BUTTON -->
+  <button type="button" id="backToTop" class="back-to-top" aria-label="Scroll back to top of page">
+    ↑
+  </button>
+
+</body>
+</html>
